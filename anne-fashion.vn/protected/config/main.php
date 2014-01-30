@@ -10,7 +10,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Anne Fashion',
-	'theme'=>'blackboot', // requires you to copy the theme under your themes directory
+	'theme'=>'bootstrap', // requires you to copy the theme under your themes directory
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -36,7 +36,30 @@ return array(
 	// application components
 	'components'=>array(
 		'bootstrap'=>array(
-            'class'=>'bootstrap.components.Bootstrap',
+	         'class'=>'ext.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
+	        //'coreCss'=>true, // whether to register the Bootstrap core CSS (bootstrap.min.css), defaults to true
+	        //'responsiveCss'=>false, // whether to register the Bootstrap responsive CSS (bootstrap-responsive.min.css), default to false
+	        //'js'=>array('bootstrap.min.js'),
+	        //'js'=>array('bootstrap-carousel.js'),
+            //'css'=>array(                        // and css
+             //       'css/bootstrap.min.css', 
+             //       'css/bootstrap-responsive.min.css',
+              //  ),
+            //'depends'=>array('jquery'),    
+	        'plugins'=>array(
+	            // Optionally you can configure the \"global\" plugins (button, popover, tooltip and transition)
+	            // To prevent a plugin from being loaded set it to false as demonstrated below
+	            'transition'=>false, // disable CSS transitions
+	            'tooltip'=>array(
+	                'selector'=>'a.tooltip', // bind the plugin tooltip to anchor tags with the 'tooltip' class
+	                'options'=>array(
+	                    'placement'=>'bottom', // place the tooltips below instead
+					),
+	            ),
+	         //.....
+            // If you need help with configuring the plugins, please refer to Bootstrap's own documentation:
+			// http://twitter.github.com/bootstrap/javascript.html
+        ),
         ),
 		'user'=>array(
 			// enable cookie-based authentication
