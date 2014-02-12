@@ -69,12 +69,13 @@ return array(
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+                    'showScriptName'=>true,
 			'rules'=>array(
 			
 			   'gii'=>'gii',
 	            'gii/<controller:\w+>'=>'gii/<controller>',
 	            'gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',
-			
+                                 '<alias:.*?>-detail-<id:\d+>' => array('sanpham/ItemDetail', 'defaultParams' => array('id' => '3')),
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

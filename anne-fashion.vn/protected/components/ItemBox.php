@@ -1,11 +1,10 @@
 <?php
 class ItemBox extends CWidget {
  
-    public $crumbs = array();
-    public $delimiter = ' / ';
+    public $sanpham = null;
  
     public function run() {
-        $this->render('itemBox');
+        $this->render('itemBox', array('sanpham'=>$this->sanpham));
     }
  
 }

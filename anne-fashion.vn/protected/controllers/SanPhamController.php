@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 class SanPhamController extends Controller
 {
@@ -28,7 +28,7 @@ class SanPhamController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view', "ItemDetail"),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -51,7 +51,16 @@ class SanPhamController extends Controller
 	 */
 	public function actionView($id)
 	{
-		$this->render('view',array(
+		$this->render('view',array('model'=>$this->loadModel($id),));
+	}
+        public function actionXemSanPham($name)
+	{
+		$this->render('view',array('model'=>$this->loadModel($id),));
+	}
+        
+        public function actionItemDetail($id)
+	{
+		$this->render('itemdetail',array(
 			'model'=>$this->loadModel($id),
 		));
 	}
@@ -62,8 +71,9 @@ class SanPhamController extends Controller
 	 */
 	public function actionCreate()
 	{
+                Yii::app()->theme = 'blackboot';
 		$model=new SanPham;
-
+                
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
@@ -86,6 +96,7 @@ class SanPhamController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
+             Yii::app()->theme = 'blackboot';
 		$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
@@ -110,6 +121,7 @@ class SanPhamController extends Controller
 	 */
 	public function actionDelete($id)
 	{
+            Yii::app()->theme = 'blackboot';
 		$this->loadModel($id)->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser

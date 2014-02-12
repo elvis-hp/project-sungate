@@ -15,6 +15,7 @@ body{
 /*Overite*/
 .img-responsive{
 	width: 100%;
+        min-height: 351px;
 }
 .row {
 margin-left: -15px;

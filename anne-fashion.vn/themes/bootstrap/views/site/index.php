@@ -5,13 +5,11 @@
 	<div class="col-md-12">								
 		<ul class="thumbnails listing-products">
 			<?php 
-	
-				for($i = 0; $i < 100; $i ++){
-			
-					$this->widget('application.components.itemBox',  array('delimiter' => ''));
+                                
+                                foreach ($listSP as $sanpham) {
+                                    $this->widget('application.components.itemBox',  array('sanpham' => $sanpham));
+                                }
 				
-				 }
-			
 			?>
 		</ul>								
 		<hr>

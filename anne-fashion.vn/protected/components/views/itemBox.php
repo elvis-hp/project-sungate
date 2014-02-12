@@ -1,9 +1,15 @@
 <li class="col-md-4">
+    
+    <?php ?>
 	<div class="product-box">
-		<span class="sale_tag"></span>												
-		<a href="product_detail.html"><img alt="" src="https://d2isyty7gbnm74.cloudfront.net/z-aemSeUbT0OrSmU8vt2li8sR28=/646x646/d1g145x70srn7h.cloudfront.net/files/6f214f0121e80b146459805c4bddaaaab64776ea/original.jpeg" class="img-responsive"></a>
-		<a href="product_detail.html" class="title">Fusce id molestie massa</a>
+                <?php if($sanpham->GiamGia != NULL) {?>
+                
+		<span class="sale_tag"></span>
+                
+                <?php }?>
+                <a href="<?php echo SanPham::model()->PartURL($sanpham->TenSP) . "-detail-".$sanpham->MaSP; ?>"><img alt="" src="<?php echo Yii::app()->getBaseUrl()?>/images/thumbs/<?php echo $sanpham->HinhThumb; ?>" class="img-responsive"></a>
+		<a href="product_detail.html" class="title"><?php echo $sanpham->TenSP ?></a>
 		<!--<a href="#" class="category">Phasellus consequat</a>-->
-		<p class="price">341.000 (VND)</p>
+		<p class="price"><?php echo $sanpham->Gia ?> (VND)</p>
 	</div>
 </li>  

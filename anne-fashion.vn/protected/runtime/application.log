@@ -1101,3 +1101,422 @@ REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/loaiSanPham/update
 in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\protected\views\loaiSanPham\_form.php (42)
 in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\protected\views\loaiSanPham\update.php (21)
 in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\protected\controllers\LoaiSanPhamController.php (105)
+2014/01/09 17:42:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loaisanpham".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('loaisanpham')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('loaisanpham')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loaisanpha...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/site/loaisanpham
+---
+2014/01/09 18:20:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "itemdetail".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('itemdetail')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('itemdetail')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/itemdet...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/itemdetail?id=1
+---
+2014/01/09 18:20:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "itemdetail".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('itemdetail')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('itemdetail')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/itemdet...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/itemdetail/1
+---
+2014/01/09 18:20:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "itemdetail".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('itemdetail')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('itemdetail')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/itemdet...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/itemdetail?id=1
+---
+2014/01/10 16:54:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "thuonghieu".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('thuonghieu')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('thuonghieu')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('site/thuonghieu')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/site/thuonghieu
+---
+2014/02/12 16:51:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham
+---
+2014/02/12 16:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham
+---
+2014/02/12 16:51:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/admin
+---
+2014/02/12 16:51:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/index
+---
+2014/02/12 16:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/create
+---
+2014/02/12 16:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/index
+---
+2014/02/12 16:55:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/admin
+---
+2014/02/12 16:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/admin
+---
+2014/02/12 16:55:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/index
+---
+2014/02/12 16:55:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/admin
+---
+2014/02/12 16:55:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/index
+---
+2014/02/12 16:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/index
+---
+2014/02/12 17:28:38 [error] [php] Undefined variable: sanpham (C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\protected\components\ItemBox.php:7)
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(869): SiteController->renderFile()
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(782): SiteController->renderPartial()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\protected\controllers\SiteController.php(34): SiteController->render()
+#5 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(286): SiteController->runAction()
+#8 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): SiteController->run()
+#10 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CWebApplication->run()
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/
+in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\protected\components\ItemBox.php (7)
+in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\themes\bootstrap\views\site\index.php (10)
+in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\protected\controllers\SiteController.php (34)
+2014/02/12 17:53:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham
+---
+2014/02/12 17:54:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('ItemDetail')
+#9 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/ItemDet...')
+#10 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/ItemDetail
+---
+2014/02/12 17:54:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/ItemDetail
+---
+2014/02/12 17:54:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\protected\controllers\SanPhamController.php:169
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\protected\controllers\SanPhamController.php(64): SanPhamController->loadModel('2')
+#1 [internal function]: SanPhamController->actionItemDetail('2')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SanPhamController), Array)
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SanPhamController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('ItemDetail')
+#13 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/ItemDet...')
+#14 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/ItemDetail?id=2
+---
+2014/02/12 17:54:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/ItemDetail?id=2
+---
+2014/02/12 17:55:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/ItemDetail?id=3
+---
+2014/02/12 18:00:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "snapham/ItemDetail".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('snapham/ItemDet...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/tenpham-detail-3
+---
+2014/02/12 18:00:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/tenpham-detail-3
+---
+2014/02/12 18:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/tenpham-detail-3
+---
+2014/02/12 18:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/ItemDetail?id=3
+---
+2014/02/12 18:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/tenpham-detail-3
+---
+2014/02/12 18:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/ao-tay-cut-detail-3
+---
+2014/02/12 18:02:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/ao-tay-cut-detail-3
+---
+2014/02/12 18:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('index.html')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('index.html')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/index.h...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/index.html
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/ItemDetail?id=3
+---
+2014/02/12 18:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/index.html
+---
+2014/02/12 18:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CController.php(270): CController->missingAction('themes')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(282): CController->run('themes')
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/themes/...')
+#3 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham/index
+---
+2014/02/12 18:08:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/ao-01-detail-3
+---
+2014/02/12 18:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham
+---
+2014/02/12 18:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/index.html
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/sanpham
+---
+2014/02/12 18:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/index.html
+---
+2014/02/12 18:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/img/gotop.png".' in C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\GitHub\project-sungate\anne-fashion.vn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/GitHub/project-sungate/anne-fashion.vn/index.php/themes/bootstrap/img/gotop.png
+HTTP_REFERER=http://localhost/GitHub/project-sungate/anne-fashion.vn/index.php/ao-01-detail-3
+---

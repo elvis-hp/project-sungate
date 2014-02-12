@@ -30,16 +30,29 @@
 		<?php echo $form->textField($model,'Logo',array('size'=>60,'maxlength'=>100)); ?>
 		<?php echo $form->error($model,'Logo'); ?> -->
                 <?php
-                 echo ' <label for="file">Logo thương hiệu:</label>
+                 echo ' <label for="file">Logo thương hiệu: </label>
                       <input type="file" name="file" id="file"><br>'
                 ?>
 
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'XuatXu'); ?>
+                
+		<!--<?php echo $form->labelEx($model,'XuatXu'); ?>
 		<?php echo $form->textField($model,'XuatXu',array('size'=>60,'maxlength'=>100)); ?>
 		<?php echo $form->error($model,'XuatXu'); ?>
+                -->
+                <?php 
+                    echo $form->labelEx($model,'XuatXu');
+                    echo '<select name="XuatXu" id="XuatXu"> ';
+                    echo '<option value="1">USA</option>';
+                    echo '<option value="2">Anh</option>';
+                    echo '<option value="3">Pháp</option>';
+                    echo '<option value="4">Hàn Quốc</option>';
+                    echo '<option value="5">Việt Nam</option>';
+                    echo '<option value="6">Trung Quốc</option>';
+                    echo '</select>'
+                ?>
 	</div>
 
 	<div class="row">
